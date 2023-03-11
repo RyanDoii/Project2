@@ -1,0 +1,27 @@
+@keyframes color {
+    0%   { background: #078a8a; }
+    20%  { background: #006661; }
+    40%  { background: #006c74; }
+    60%  { background: #009aa5; }
+    80%  { background: #036a7c; }
+    100% { background: #017474; }
+  }
+  
+  body {
+    background: #33CCCC; /* Fallback */
+    animation: color 9s infinite linear;
+    text-align: center;
+    padding: 2em;
+  }
+
+  form{
+    width: 300px;
+    height: 221px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0%;
+  }
+  #tasks{
+    width: 224px;
+    height: 150px;
+  }
